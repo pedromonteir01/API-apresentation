@@ -1,9 +1,9 @@
 import axios from "axios";
 
 
-const URL_API = 'https://api.sampleapis.com/simpsons/characters';
+const URL_API = '/api/fut';
 
-const cards = async () => {
+const teams = async () => {
     try {
         const response = await axios.get(URL_API);
         return response.data.items;
@@ -12,4 +12,4 @@ const cards = async () => {
     }
 }
 
-export default cards;
+export default teams;
