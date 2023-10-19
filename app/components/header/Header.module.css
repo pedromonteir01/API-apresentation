@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 40px;
+    height: 80px;
+    background-color: rgb(17, 183, 50);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links{
+    text-decoration: none;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 10px;
+}
